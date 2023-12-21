@@ -1,4 +1,4 @@
 function h(){
-    console.log("hello")
+    console.log("hello modi")
 }
 h();
