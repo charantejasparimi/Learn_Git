@@ -1,0 +1,14 @@
+// In local computer we have to create local repository so in terminal in the path where you want to work run the command below
+git init 
+// Link the main repository to local repository for that :
+git remote origin main http://github.com/username/repositoryname.git
+// to create a branch name main and move to the branch :
+git checkout -b main   
+// To pull the data present in repository :
+git pull origin main
+// Adds your local files and folders into repository
+git add .
+// commiting all the files we uploaded and write any comment what you done in between Quotes
+git commit -m "added files and folder"
+// Pushing the data to main repository
+git push origin main 
